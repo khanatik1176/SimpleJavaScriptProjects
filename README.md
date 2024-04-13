@@ -1,1 +1,1 @@
-# SimpleJavaScriptProjects
+# Simple JavaScript Projects (Vanila JavaScript)
