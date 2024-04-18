@@ -1,0 +1,134 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+.form
+{
+    background-color: azure;
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form .output
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: none;
+    background: transparent;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 400;
+    
+}
+
+.out
+{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.km, .meter
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.calculate
+{
+    padding: 12px 18px;
+    background-color: chartreuse;
+    margin-top: 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+
+}
+
+.Reset
+{
+    padding: 12px 30px;
+    background-color: red;
+    margin-top: 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+
+}
+
+.Reset:hover
+{
+    background-color: darkred;
+    color: white;
+}
+
+
+.calculate:hover
+{
+    background-color: darkgreen;
+    color: white;
+}
+
+
+.form .KM
+{
+    width: 400px;
+    text-align: end;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.form .Meter
+{
+    width: 400px;
+    text-align: end;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+
